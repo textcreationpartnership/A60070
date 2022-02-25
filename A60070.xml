@@ -1,0 +1,799 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Short discourse upon the designs, practices, &amp; counsels of France in a letter to a friend.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1677</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 47 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A60070</idno>
+            <idno type="STC">Wing S3589</idno>
+            <idno type="STC">ESTC R10678</idno>
+            <idno type="EEBO-CITATION">13293165</idno>
+            <idno type="OCLC">ocm 13293165</idno>
+            <idno type="VID">98861</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A60070)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 98861)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 439:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Short discourse upon the designs, practices, &amp; counsels of France in a letter to a friend.</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>... Sold by Randal Taylor ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>First printed in 1677, and now reprinted ... Dec. 29, 1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>France --  History --  Louis XIV, 1643-1715.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:98861:1" rendition="simple:additions"/>
+            <p>A Short DISCOURSE UPON THE DESIGNS, PRACTICES &amp; COUNSELS OF
+FRANCE.</p>
+            <p>In a LETTER to a Friend.</p>
+            <p>
+               <hi>LONDON, Firſt Printed in</hi> 1677. <hi>And now Reprinted
+for the Informa<g ref="char:EOLhyphen"/>tion of the preſent Times,</hi> Dec. 29. 1688. <hi>And are to
+be Sold by</hi> Randal Taylor <hi>near</hi> Stationers-Hall.</p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb facs="tcp:98861:2"/>
+            <pb n="3" facs="tcp:98861:2" rendition="simple:additions"/>
+            <head>A Short Diſcourſe upon the Deſigns, Practices, and
+Coun<g ref="char:EOLhyphen"/>cels of <hi>France.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>YOu gave me a Brief, and a pertinent Deduction the other day, of
+the <hi>French Practices,</hi> and <hi>Deſigns;</hi> the Progreſs of their
+<hi>Arms,</hi> and the Methods of their <hi>Proceedings:</hi> Together with a
+Scheme of the Inevitable Ruine and Slavery that threatens <hi>Europe,</hi>
+without a ſpeedy, and a powerful Conjunction againſt them.</p>
+            <p>After this general Contemplation of the preſent State of
+<hi>Chriſtendom;</hi> you were pleaſed to take a particular Proſpect of
+the Intereſt of <hi>this Na<g ref="char:EOLhyphen"/>tion;</hi> and how far we are to reckon our
+ſelves concerned in the com<g ref="char:EOLhyphen"/>mon Calamity: Coming at laſt to this
+Concluſion, that <hi>England cannot reaſonably expect to ſtand long,
+after the Loſs of Holland and Flanders.</hi> For the ſupport of this
+Opinion, (beſides the Force of your own Reaſoning) you referr'd me to
+ſeveral Hiſtorical, and Political Treatiſes upon the ſubject; which I
+have diligently examin'd, and <hi>made uſe of,</hi> in this fol<g ref="char:EOLhyphen"/>lowing
+Diſcourſe; wherein I take the Freedom to give you my Thoughts upon the
+whole matter.</p>
+            <p>Your firſt Charge upon the <hi>French,</hi> was, <hi>Breach of
+Faith:</hi> and you pitch'd upon the Caſes of <hi>Spain,</hi> and
+<hi>Portugal;</hi> the barbarous uſage of the Duke of <hi>Lorain;</hi> and
+the Nulling of the moſt <hi>Chriſtian Queens Re<g ref="char:EOLhyphen"/>nuntiation</hi> upon
+Marriage; (which was the very foundation of the <hi>Pyrene<g ref="char:EOLhyphen"/>an Treaty</hi>) by a
+<hi>pretended devolution of the Spaniſh Netherlands, in the Right of that
+Match:</hi> Their underhand tampering of <hi>Denmark,</hi> and <hi>Swede,</hi>
+to draw the One <hi>from</hi> us, and hinder the Other from joyning
+<hi>with</hi> us; the Influence they had upon our Diſgrace at
+<hi>Chatham;</hi> Their playing Boo<g ref="char:EOLhyphen"/>ty on both ſides, betwixt
+<hi>England</hi> and <hi>Holland</hi> in the <hi>Dutch-war:</hi> And to theſe
+Inſtances, (which are all ſo notorious that they need no ex<g ref="char:EOLhyphen"/>pounding) you
+might have added a thouſand more of the like Quality. But theſe may
+ſuffice for a ſeaſonable, and a neceſſary Caution, and without the
+Helps of Aggravation and Clamour; eſpecially that ex<g ref="char:EOLhyphen"/>traordinary Action of
+deſtroying the <hi>Queens Renunciation,</hi> and then in<g ref="char:EOLhyphen"/>vading the
+<hi>Spaniſh Netherlands</hi> upon it: An Action hardly to be para<g ref="char:EOLhyphen"/>lell'd in
+the Story of the whole World, for a concurrence of ſo many enormous
+Circumſtances. There was in it, <hi>the Publique Faith of the two
+Crowns;</hi> which is the only ſecurity of Government, and the Bond of Humane
+Society: There was in it <hi>the Solemnity of an Oath at the very Altar;</hi>
+which is the moſt Sacred Tye of a <hi>Chriſtian:</hi> There was alſo
+<pb n="4" facs="tcp:98861:3"/>
+               <hi>the higheſt Profeſſion, and aſſurance of
+Friendſhip imaginable;</hi> which is ac<g ref="char:EOLhyphen"/>compted one of the moſt binding
+Obligations betwixt Man and Man: And then there was <hi>a Brother, a Couſin,
+and an Infant, in the Caſe;</hi> which makes it matter of Humanity and
+Honour. And yet all theſe Cords were as eaſily broken as Bulruſhes. This
+ſingle Preſident may ſerve, however, for a warning to all Princes and
+States, not to leave them<g ref="char:EOLhyphen"/>ſelves at the mercy of men of ſuch Principles.
+But <hi>His moſt Chriſtian Majeſty is not the only Prince that has been
+abuſed by Corrupt, and Ambiti<g ref="char:EOLhyphen"/>ous Miniſters.</hi>
+            </p>
+            <p>Your next Obſervation was, that they are <hi>the greateſt
+intermediers in the World, in other Peoples Affairs;</hi> that <hi>they embroyl
+all whereever they come;</hi> and that <hi>there's hardly any Rebellion, but
+they are in the bottom of it.</hi> For their Mony walks in all the Courts and
+Councils of Chriſtendom; nay, and beyond it too: For 'tis ſaid, that the
+laſt <hi>Grand Viſir</hi> was their Pentioner. Was it not <hi>France</hi>
+that debauch'd <hi>Scotland</hi> firſt; and after<g ref="char:EOLhyphen"/>wards <hi>England,</hi>
+into the late Rebellion? Nay, did they not ſtand ſtill, and look on, to
+ſee the Crowning of the work which they themſelves began, in the Execrable
+Murther of the late King? And did they not refuſe to our Gracious and
+perſecuted Sovereign — even a Retreat in their Dominions? How did they
+prolong the War in <hi>Portugal?</hi> What Havock have they made in
+<hi>Poland,</hi> and what work in <hi>Hungary?</hi> And are they not at this
+day in Counſel with the Port againſt the Empire, and undermining the
+Bullwark of Chriſtendom? How have they daſh'd <hi>England</hi> againſt
+<hi>Holland;</hi> blinded the Eyes of ſeveral Princes of the Empire; and
+baffled all Mediations towards a General Peace? Did they not formerly, under
+the Colour of protecting <hi>Germany,</hi> cut off <hi>Alſatia</hi> from the
+Empire? And in a word, this has been their practice whereſoever they have
+come: <hi>They Covet Harbours in Spain,</hi> (ſays the admirable <hi>Baron
+del' Iſola</hi>) <hi>Leagues in the Empire; Factions in</hi> Poland; <hi>Wars
+in</hi> England <hi>and</hi> Holland; <hi>Paſſes into</hi> Italy; <hi>and
+the Sovereign Ar<g ref="char:EOLhyphen"/>bitrage every where. Their Quiet conſiſts in the Trouble
+of all others, and their Advantage is in the Publique Calamities.</hi> Nor have
+they any other way, then by dividing, and weakening of the parts, to maſter
+the whole, which is the Capital deſign. And if ſo, <hi>There's no Fence
+againſt a Common Enemy, but a Common <g ref="char:V">Ʋ</g>nion.</hi>
+            </p>
+            <p>It is already made appear, by what is above ſaid, how dangerous
+they are to <hi>mankind.</hi> The next hint you gave me, was to conſider
+on't, <hi>whether the</hi> Engliſh <hi>may reaſonably expect any better
+Quarter from them, then</hi> other People: in which point, I ſhall only lay
+the matter before you, and leave you the Judge on't.</p>
+            <p>The <hi>Four main Intereſts</hi> of a Nation, are, <hi>Religion,
+Reputation, Peace,</hi> 
+               <pb n="5" facs="tcp:98861:3" rendition="simple:additions"/>and <hi>Trade.</hi> For the
+firſt of theſe; we ſhall neither fare the better, nor the worſe: but
+loſe juſt as much for being of <hi>another Communion,</hi> as his
+<hi>Catholique Majeſty</hi> gets by being of the ſame. The Queſtion now
+on Foot is a Communion of State, not of Faith. The <hi>Alcoran,</hi> and the
+<hi>Goſpel</hi> go hand in hand; and at the ſame time, the
+<hi>Proteſtants</hi> are protected in <hi>Hungary,</hi> and perſecuted in
+<hi>France.</hi> To ſay nothing of the Encouragements they give there to the
+<hi>Janſeniſts,</hi> which may, for ought we know, prove the greateſt
+Blow to the Church of <hi>Rome</hi> that ever it received ſince the
+Re<g ref="char:EOLhyphen"/>formation. But what do I talk of Religion, in a Cauſe that is dipp'd in
+<hi>Chriſtian Blood,</hi> and in the <hi>Tears of Widows and Orphans?</hi> A
+<hi>Cauſe that is</hi> propagated by <hi>Sacrilege, Rapes, Depopulation,
+Slavery, Oppreſſion; and at leaſt a Million of Lives ſacrificed to it
+already?</hi> The very thought of it is enough to ſtrike the Soul of any man
+with horrour and Indignation.</p>
+            <p>If you would ſee now how tenderly they have handled us in the
+Buſineſs of <hi>Reputation:</hi> Pray do but caſt an Eye upon the
+Character of an <hi>Engliſh man</hi> in their <hi>Politique de
+France.</hi>
+            </p>
+            <p>
+               <hi>Quant à ce qui eſt des Anglois, ils n'ont aucuns
+amis, ce ſont des gens ſans Foy, ſans Religion, ſans Probité,
+ſans Juſtice aucune, defians, legers au dernier point, Cruels, Impatiens,
+gourmands, ſuperbes, audacieux, avares, propres pour les coups de main, et
+pour une promte execution, mais incapables de conduire une Guerre avec
+jugement. Leur Pais eſt aſſez bon pour vivre, mais il n'eſt pas
+aſſez riche pour leur fournir les moyens de ſortir, &amp; de faire aucune
+conqueſte: auſſi n'ont ils ja<g ref="char:EOLhyphen"/>mais rien conquis, excepte L'Irlande, dont
+les habitans ſont fobiles, et mauvais Soldats,</hi> &amp;c. i.e. <hi>As for
+the Engliſh, they are a People without Friends, without Faith, Religion,
+Honeſty, or Juſtice; Diſtruſtful, and fickle to the higheſt degree
+imaginable: Cruel, Impatient, Gluttonous, Proud, Audacious; they will do well
+enough for a Rubber at Cuffs, or a ſudden Exploit, but they underſtand
+nothing at all of the Government of a War. The Country is paſſable enough
+for them to live in; but not Rich enough to offer at any Conqueſt abroad; nor
+did they ever make any, but upon the</hi> Iriſh, <hi>which are a weakly
+people, and ill Soldiers.</hi>
+            </p>
+            <p>I think it were not amiſs in this place, to deſire our
+Impertinent Under<g ref="char:EOLhyphen"/>taker to turn back to the Hiſtory of <hi>Philip de
+Valois,</hi> and he ſhall there find that our <hi>Edward the third</hi> made
+a ſhift with one Army to beat 60000 French, and leave betwixt thirty and
+forty thouſand of them upon the place; and with another Army in the
+Biſhoprick of <hi>Durham</hi> to defeat as many <hi>Scots,</hi> and cut off
+15000 of them too. And it muſt not be here omit<g ref="char:EOLhyphen"/>ted, that this
+<hi>Scotch</hi> Army was alſo animated by <hi>French Counſels.</hi> I would
+not willingly run out a Letter into a Volume, ſo that all other Reflections
+apart, I ſhall only add, that if the Engliſh had not once recovered the
+Field, and another time made it <hi>good</hi> in two of the greateſt Actions
+of late that have yet paſſed betwixt the <hi>Imperialiſts,</hi> and the
+<hi>French,</hi> 'tis the <pb n="6" facs="tcp:98861:4"/>Opinion of wiſe men, that the
+latter would not have had much to brag of upon the ſucceſs of this War. And
+this is ſome degree is acknowledg'd by the Author of a <hi>French Relation of
+the Actions betwixt the two Armies</hi> in 1675, 1676, and 1677, (how
+Romantical ſoever in other Caſes.) Speak<g ref="char:EOLhyphen"/>ing of the Battle under the
+command of the <hi>Count de Lorge,</hi> after the Death of the <hi>Vicount
+Turenne,</hi> theſe are his words, <hi>Et à rendre juſtice aux</hi>
+Anglois, <hi>et aux</hi> Irlandois, <hi>on peut dire, qu'on leur doit une bonne
+partie de cette victoire;</hi> That is to ſay, <hi>And to give the Engliſh
+and Iriſh their due,</hi> France <hi>is indebted to them in a large meaſure
+for this Victory.</hi> But now to our Polititian again. <hi>Ils ſe
+haiſſent les uns les autres, et ſont en diviſion continuelle, ſoit
+pour la Reli<g ref="char:EOLhyphen"/>gion, ſoit pour le Government.</hi> The Engliſh, ſays he,
+<hi>hate one another, and are ſtill quarrelling, either about Religion or
+Government.</hi>
+            </p>
+            <p>Theſe Indecencies would almoſt make a man call them Names; but
+let us paſs without one Angry word, from the Intereſt of our
+<hi>Reputation,</hi> to that of our <hi>Peace.</hi> And enquire how they
+ſtand affected to us upon that point. To ſay, that <hi>England</hi> has not
+for a long time had any troubles ei<g ref="char:EOLhyphen"/>ther at home, or abroad, which the
+<hi>French</hi> have not promoted, or improv'd to their own Advantage; is to
+ſay no more then that they deal with <hi>
+                  <g ref="char:V">Ʋ</g>s</hi> as they do with <hi>all
+the World beſide;</hi> So that we muſt e'en have recourſe again to their
+<hi>Politiques</hi> for ſome particular mark of their Favour, where you
+ſhall find that our State-Mountebank has not yet ſhewn all his Tricks, but
+puts himſelf with a very grave and fore-caſting Countenance upon the very
+Project of our Ruine. <hi>
+                  <g ref="char:V">Ʋ</g>ne Guerre de France, de trois ou quatre ans contre
+eux les ruiner a entierement, ainſi il ſemble qu' il ne faut point faire de
+paix avec eux qu' à des Conditions qui nous ſoient tres
+avantageuſes. A War</hi> (ſays he) <hi>of three or four years with</hi>
+France, <hi>would abſolutely deſtroy the Engliſh; ſo that methinks we
+ſhould not entertain any Peace with them, but upon very profitable
+terms.</hi> And then a little after. <hi>In fine,</hi> ſays he, <hi>the way
+to undo the Engliſh, is to make them keep an Army on foot; and there's no
+fear of their Landing in</hi> France, <hi>but to their certain deſtruction,
+unleſs they ſhould be invited by a Rebel<g ref="char:EOLhyphen"/>lion; without which, their Troops
+will in a ſhort time moſt undoubtedly fall foul one upon another. To keep
+them upon continual Expence, 'tis but giving them the Alarm upon the Iſles
+of</hi> Jerſey, <hi>and</hi> Gernſey, Wight, <hi>and</hi> Man, Ireland,
+<hi>and the</hi> Cinque-Ports; <hi>by which means, they will be put upon the
+Charge of Fortifi<g ref="char:EOLhyphen"/>cations and Garriſons, which will perſwade the People
+that the King intends to ſet up a ſtanding Army, and an Arbitrary
+Government. So long as this holds, the Nation will never be at quiet, but
+torment themſelves with fears, and Jealouſies, which may be eaſily
+fomented by letters in Cipher, to ſuch or ſuch particular per<g ref="char:EOLhyphen"/>ſons; and
+in ſuch ſort to be intercepted as ſhall be found convenient. Theſe
+Let<g ref="char:EOLhyphen"/>ters may give a Hint of a Deſcent in</hi> Ireland, <hi>and elſewhere,
+which would diſ<g ref="char:EOLhyphen"/>poſe the Iriſh, who mortally hate the Engliſh, to a
+Revolt; and among the ſuſpici<g ref="char:EOLhyphen"/>ous <pb n="7" facs="tcp:98861:4" rendition="simple:additions"/>Multitude they
+would</hi> paſs <hi>for Goſpel. This Contrivance would make the Scots
+alſo to bethink themſelves of recovering their Liberty; where there muſt
+be Par<g ref="char:EOLhyphen"/>ties made, and the Sects encourag'd one againſt another; eſpecially
+the Roman Catholiques, muſt be fairly handl'd, and private Aſſurance
+given (in the Name of the King of</hi> England) <hi>to the</hi> Benedictins,
+<hi>(who are eaſie enough to be impos'd upon) that they ſhall be reſtor'd
+to all their former Benefits, according to the Prin<g ref="char:EOLhyphen"/>ted Monaſticon; which
+will preſently make the Roman Catholiques declare them<g ref="char:EOLhyphen"/>ſelves; and the
+Monks will move Heaven and Earth for the bringing of mat<g ref="char:EOLhyphen"/>ters about: But then
+Care muſt be taken to carry on the Report that the King is of the Romiſh
+Religion; which will diſtract the Government, and throw all into an
+abſolute Confuſion.</hi>
+            </p>
+            <p>From hence we may gather; firſt, what opinion the French have of
+us: Secondly, that it is not only their deſire and ſtudy, but a formed
+deſign to embroyl us. Thirdly, that they will ſtick at nothing nei<g ref="char:EOLhyphen"/>ther, to
+compaſs that end; be it never ſo foul: Fourthly, this Libeller has trac'd
+us out the very methods of their working: As by amuſing the People with
+forged Letters of Intelligence, where the firſt Author of the Plot muſt
+miraculouſly diſcover it: By filling the Peoples heads with fears and
+Jealouſies, and leaving no ſtone unturn'd in <hi>England, Scotland,</hi>
+and <hi>Ireland,</hi> to ſtir up a Rebellion: Why has he not advis'd the
+Poiſoning of all our Fountains too? which would have been a Courſe of as
+much Chri<g ref="char:EOLhyphen"/>ſtianity and Honour. But that this Trifler may not glorify
+himſelf too much in his wondrous Speculations, take notice, that he is only
+the Tran<g ref="char:EOLhyphen"/>ſcriber, not the Author of this goodly Piece, for the Original was
+betwixt <hi>Richlieu</hi> and <hi>Mazarine;</hi> and it amounts to no more in
+effect, then an im<g ref="char:EOLhyphen"/>perfect Hiſtory of the French dealings with us for a long
+time, and par<g ref="char:EOLhyphen"/>ticularly in our late Troubles.</p>
+            <p>To come now from his moſt unmannerly Malice, to his Reaſon of
+State, If I am not miſtaken, England <hi>might longer ſubſiſt in a War
+with</hi> France, <hi>then</hi> France <hi>could in a Peace within it
+ſelf</hi> (the heavieſt of all Judgments, when a Nation muſt be wicked
+upon neceſſity:) And again; when he ſays that <hi>England cannot
+hurt</hi> France <hi>by a Deſcent, unleſs call'd in by a Rebellion;</hi> he
+never conſiders that if England <hi>had an Army a foot, and ſtood inclin'd
+to make uſe of it that way, we ſhould not be long without an
+Invitation.</hi> For we ſee what the <hi>Bourdelois,</hi> &amp;c. did upon
+their own Bottom, and without any Foreign Encouragement; and the whole
+buſineſs miſcarried only for want of a rigorous Second. Laſtly; give me
+leave to ſay that he has extremely overſhot himſelf in one thing more;
+for though this has been really the practice of the <hi>French,</hi> and is at
+this day the very Model and Rule by which their Emiſſaries govern
+themſelves; it ſhould yet have been kept as the greateſt Secret in the
+World: for the owning of theſe <pb n="8" facs="tcp:98861:5"/>Inglorious Artifices in
+publique, makes it one of the Groſſeſt Libels that ever was written
+againſt the <hi>French Government:</hi> to ſay nothing of his overſight
+in diſobliging the <hi>Roman Catholiques,</hi> and laying Snares to Tre<g ref="char:EOLhyphen"/>pan
+them.</p>
+            <p>The queſtion of <hi>Trade</hi> has been ſo beaten already,
+that there remains Little to be added to it. Nor in truth needs it, ſince it
+is agreed at all hands, that the <hi>French</hi> ſet up for an
+<hi>
+                  <g ref="char:V">Ʋ</g>niverſal Commerce</hi> as well as for an <hi>
+                  <g ref="char:V">Ʋ</g>niverſal
+Monarchy.</hi> And in effect, the one is but a neceſſary conſequent upon
+the other. Nor is it enough, it ſeems, for us to be deſign'd upon by them,
+without lending them our hands towards the cutting of our own Throats: <hi>For
+upon a ſober and judicious eſtimate, we are Loſers by our Trade with</hi>
+France, <hi>at leaſt a Million and an half per Annum.</hi> I ſhall conclude
+this Head with one paſſage more out of our <hi>Politiques of France:</hi>
+(And you'l ſay 'tis a pleaſant one too, but it muſt be under the Roſe)
+Upon a Pre<g ref="char:EOLhyphen"/>ſuppoſal of miſchief that's a Brewing in <hi>England,
+Now,</hi> ſays he, <hi>it will be our buſineſs to renew our Allyance
+with</hi> Holland; <hi>we can wheedle them into an Opinion, that they are the
+only men that underſtand the knack of Trade, ſo that they ſhall have that
+to themſelves; the Talent of the</hi> French, <hi>alas! lies ano<g ref="char:EOLhyphen"/>ther way,
+and there's no forcing of any thing againſt Nature: and that now's their nick
+of time, to cruſh their Competitors for the Northern Seas.</hi> So that we
+are all of us to be ſerved with the ſame Sauce; but 'tis ſome degree of
+Honeſty yet, when they tell the World what they are to truſt to.</p>
+            <p>Now to ſum up all that's ſaid. If the <hi>French</hi> can
+diſpence with <hi>Oaths,</hi> and <hi>Solemn Contracts;</hi> If it be their
+<hi>Cuſtom,</hi> and a Branch of their <hi>Policy, to fiſh in troubled
+Waters;</hi> If they <hi>hate</hi> us, as <hi>Engliſh-men,</hi> and are not
+<hi>for</hi> us, as <hi>Reformed Catholiques;</hi> If they do all they can to
+wound us, in our <hi>Reputation,</hi> our <hi>Peace,</hi> and our
+<hi>Trade,</hi> we may take for granted that they will deſtroy us to all
+purpoſes if they can, which naturally leads me to an Enquiry how far we are
+in their Power, or likely ſo to be, that we may take our meaſures
+accordingly.</p>
+            <p>It will not ſtand with the Brevity I propoſe in this Paper to
+give you a <hi>Geographical,</hi> or an <hi>Hiſtorical</hi> Accompt of
+<hi>Places,</hi> or <hi>Actions:</hi> But in as few words as I can, I am to
+preſent you with a general view of the pre<g ref="char:EOLhyphen"/>ſent State of
+<hi>Chriſtendom,</hi> with a regard to the Power of <hi>France;</hi> and then
+to conſider how far <hi>England</hi> may come to be concern'd in the
+<hi>Com<g ref="char:EOLhyphen"/>mon Fate.</hi> Here it was that you and I brake off in our laſt
+Diſcourſe; So that in the Proſecution of it, I muſt try to walk without
+Le<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ding, (Sa<g ref="char:EOLhyphen"/>ving only the
+helps that I have gathered from certain Tracts which I have read, upon his
+Recommendation) wherein I ſhall ſteer a middle Courſe, betwixt ſome
+that <hi>overvalue</hi> the Strength of <hi>France,</hi> and others that will
+have it to be <hi>leſs</hi> then indeed it is.</p>
+            <pb n="9" facs="tcp:98861:5" rendition="simple:additions"/>
+            <p>That the Arms of <hi>France</hi> are at this day formidable to all
+<hi>Chriſten<g ref="char:EOLhyphen"/>dome,</hi> is not to be denied, and <hi>Tacitus</hi> gives you
+the reaſon of it, in the Caſe of the <hi>Romans</hi> and the <hi>Brittains,
+Rarus</hi> (ſays he) <hi>ad propulſan<g ref="char:EOLhyphen"/>dum commune Periculum conventus: ita,
+dum ſinguli pugnant, univerſi vincuntur. There muſt be a common force to
+oppoſe a common danger; they ſtruggled one by one, till they were all
+deſtroyed.</hi> The <hi>French</hi> (no doubt of it) are a <hi>wealthy,</hi>
+a <hi>populous</hi> and a <hi>Military Nation.</hi> But it muſt be allowed
+that they are more indebted for their Greatneſs, to the <hi>ſlips</hi> and
+<hi>overſights</hi> of <hi>others,</hi> (And this without diſparagement
+too) then they are to their <hi>proper Conduct</hi> and <hi>Valour.</hi> The
+advance they made into <hi>Flanders</hi> in 1667. was introduced by the
+<hi>Spaniards</hi> truſting to their Aſſurances of Friendſhip, and
+rather imputable to an exceſs of Charity than any want of Precaution; though
+it ſeemed not very likely that they ſhould march with Horſe, Foot, and
+Cannon, only to go a birding. Through theſe and the like Arts they have
+rais'd them<g ref="char:EOLhyphen"/>ſelves to that dangerous height where now we behold them; taking
+all advantages of the unſetled condition of <hi>Spain;</hi> the diviſions
+of the Empire, the Factions in <hi>Holland,</hi> and of all other miſtakes in
+point of fore-ſight and Reſolution elſewhere. You know very well, the
+Conqueſts they have made upon the <hi>United Provinces,</hi> the
+<hi>Spaniſh Netherlands;</hi> a conſiderable part of <hi>Germany</hi> with
+the <hi>Terror</hi> and <hi>De<g ref="char:EOLhyphen"/>vaſtation</hi> that accompanies them every
+where: The Progreſs of their Arms in <hi>Catalonia, Sicily, the
+Weſt-Indies,</hi> &amp;c. Now what may be the conſequences of this
+over-growing Power, and how to prevent them, is the matter in Queſtion.</p>
+            <p>AS it is without diſpute, that the <hi>French</hi> aim at
+<hi>Univerſal Domini<g ref="char:EOLhyphen"/>on,</hi> (which is only a more plauſible Cover for
+that <hi>Univerſal Slavery</hi> which muſt create it) ſo is it accompted
+as indubitable a Prin<g ref="char:EOLhyphen"/>ciple, that the Conqueſt of <hi>Flanders</hi> muſt be
+the <hi>Foundation</hi> of it. And according to this Maxim it is, that they
+take their Meaſures; for they have made themſelves Maſters of the
+Outworks already, in <hi>Va<g ref="char:EOLhyphen"/>lenciennes, Cambray</hi> and <hi>St. Omer;</hi>
+three places of very great ſtrength and importance: And it is generally
+believ'd by the recalling of their Troops from the <hi>Rhine,</hi> and bending
+the flower of their Force that that way, that they will puſh for the reſt
+this Campania. If they carry it, (as probably they will, without the ſpeedy
+addition of ſome powerful Alliance) take notice I beſeech you of that which
+Natural<g ref="char:EOLhyphen"/>ly follows. In the <hi>firſt</hi> place, the Charge and the Hazard of
+that War is over, which in Garriſons, and in the Field, has put his
+<hi>moſt Chriſtian Majeſty</hi> to expence of keeping near 100000 Men in
+Pay: (which will then be at liberty to fall in upon the Empire.) Beſide,
+<pb n="10" facs="tcp:98861:6"/>what has been expended in <hi>Management,</hi> as the
+<hi>French</hi> call it, which in <hi>honeſt Engliſh is down right
+Corruption.</hi> Secondly, This Acquiſition will furniſh the
+<hi>French</hi> King with men and monies, for an Army of <hi>fifty thouſand
+Men,</hi> (and no better Souldiers in <hi>Europe.</hi>) Thirdly, what will
+become of the Duke of <hi>Brandenburg,</hi> if the <hi>French</hi> ſhall fall
+into <hi>Cleves,</hi> and <hi>Mark,</hi> with a matter of <hi>forty</hi> or
+<hi>fifty thouſand Men</hi> more, and from thence into <hi>Pomeren,</hi> and
+<hi>Pruſſia?</hi> Fourthly, the whole Patrimony of the <hi>Empire,</hi>
+from the <hi>Rhine</hi> to the Frontiers of <hi>France,</hi> fall by an
+inevitable Conſequence into the hands of the <hi>French;</hi> as they have
+already ſwallowed the three Biſhopricks of <hi>Metz, Toul</hi> and
+<hi>Verdun.</hi> So that the <hi>Imperial Army</hi> will be forc'd o<g ref="char:EOLhyphen"/>ver the
+<hi>Rhine,</hi> and there probably kept in play, and upon the bare
+<hi>defenſive,</hi> by the Princes of the <hi>French Intereſt;</hi> while
+in the mean time, the Princes of <hi>Weſtphalia</hi> will be reduc'd to an
+abſolute neceſſity of ranging themſelves under the <hi>French</hi>
+Protection and Changing their party. And what can then be expected from
+<hi>Holland,</hi> after what they have ſuffer'd already, and under their
+preſent deſpairs, but to content themſelves with ſuch Conditions as
+<hi>France</hi> will give them? For after the loſs of <hi>Cleves</hi> and
+<hi>Flanders,</hi> their Caſe is wholly deſpe<g ref="char:EOLhyphen"/>rate, unleſs
+<hi>England</hi> ſhould vigorouſly interpoſe to their Relief. And the
+State of the <hi>Empire</hi> is neither better nor worſe than that of their
+Neighbours; for they muſt all ſubmit their Necks to the ſame Yoak. When
+matters are brought to this Paſs, they have before them, <hi>En<g ref="char:EOLhyphen"/>gland,
+Spain</hi> and <hi>Italy;</hi> the Cloud is gathered already, and it is whol<g ref="char:EOLhyphen"/>ly
+at their Choice where it ſhall break.</p>
+            <p>There are a great many people, I know, that promiſe themſelves
+mighty things from the Event of another <hi>Campania,</hi> for want I fear of
+Conſulting the Chart, and the almoſt inſuperable difficulties that lie in
+the way; The means they propoſe, are either by carrying the War into
+<hi>France,</hi> by way of <hi>Revulſion,</hi> or by forcing the
+<hi>French</hi> upon a <hi>Capital Battel;</hi> The former Propoſition
+ſeems <hi>firſt</hi> very im<g ref="char:EOLhyphen"/>practicable; and <hi>ſecondly,</hi> of
+little or no advantage, if it could be effected. It muſt be conſidered that
+beyond <hi>Mentz, Coblents</hi> and <hi>Treves,</hi> the <hi>Imperaliſts</hi>
+have no Magazine at all beſide that betwixt <hi>Treves</hi> and
+<hi>France</hi> (a part of <hi>Luxenburg</hi> excepted) is abſolutely in the
+Enemies Power. Now how ſhould an Army ſubſiſt there, that muſt over
+and above, paſs through a Country of about twenty Leagues, that is wholly
+laid waſt, and in Aſhes, and without any Cattle in it, or any other ſort
+of Neceſſary proviſion?</p>
+            <p>Put the Caſe now that the <hi>Imperialiſts</hi> ſhould break
+through all theſe difficulties, and carry an Army even into the
+<hi>Lorain</hi> it ſelf, the Coun<g ref="char:EOLhyphen"/>try of <hi>Metzin,</hi> or
+<hi>Burgundy,</hi> (which would take them up the beſt
+<pb n="11" facs="tcp:98861:6" rendition="simple:additions"/>part of a Summer too) all the ſtrong holds are in
+the hands of the <hi>French,</hi> and the Country laid ſo deſolate, that
+there's no living for an Army there. When 'tis come to this, they muſt
+reſolve either upon a <hi>Battle</hi> or <hi>Siege.</hi> If the former; The
+<hi>French</hi> are at liberty whether they will fight, or no, and there's no
+compelling of them; for they are among their ſtrong holds; and all's their
+own both be<g ref="char:EOLhyphen"/>hind them, and on each ſide, and the Country either burnt or
+de<g ref="char:EOLhyphen"/>ſerted. But carry it father yet, and ſuppoſe the <hi>French</hi>
+forc'd up<g ref="char:EOLhyphen"/>on the Riſque of a <hi>Battle, Firſt,</hi> The
+<hi>Imperialiſts</hi> are not ſure to get the better of it. And
+<hi>Secondly,</hi> What if they ſhould? Nay to the degree of an entire
+Victory? All that would be expected more for that year, would be only to take
+in ſome conſiderable Poſt, and make good the ground they had gotten for
+the next Campaign: For it would be a madneſs to purſue their Victory into
+the heart of an E<g ref="char:EOLhyphen"/>nemies Country, and leave ſo many ſtrong Garriſons upon
+their Backs, which would undoubtedly cut off all their Convoys and ſtarve
+them.</p>
+            <p>But this is ſtill the ſuppoſing of a Thing not to be
+ſuppoſed; for the <hi>French</hi> in this Caſe, would ſtand upon the
+Defenſive, and not to come to a <hi>Battle.</hi> Or in caſe they ſhould,
+and be worſted; they have men enough in Garriſon for Recruits, that would
+immediatly reinforce them.</p>
+            <p>Now on the other ſide, what if the <hi>Imperialiſts</hi>
+ſhould chance to be routed? The Garriſons which the <hi>French</hi> hold in
+<hi>Lorain, Burgundy</hi> and <hi>Alſatia,</hi> would in ſuch Caſe,
+totally deſtroy that broken Army, and cut out ſuch work in
+<hi>Germany,</hi> as has not been known in the <hi>Empire</hi> for many
+Ages.</p>
+            <p>In this extremity, let us ſuppoſe that the <hi>Empire</hi>
+ſhould yet bring another. Army into the Field; and try the iſſue of a
+Second <hi>Bat<g ref="char:EOLhyphen"/>tle,</hi> and miſcarry: And that the diſaffected Princes of
+the Empire, ſhould declare themſelves for the Enemy; all that part of
+<hi>Germany</hi> that lies within two or three days journy of the
+<hi>Rhine,</hi> would be ir<g ref="char:EOLhyphen"/>recoverably loſt; a great part of it being ſo
+harraſed already, that 'tis not able ſo much as to furniſh an Army upon a
+March, much leſs for a Winter quarter.</p>
+            <p>Now to the Buſineſs of a <hi>Siege,</hi> the <hi>French</hi>
+have taught us, by <hi>Phi<g ref="char:EOLhyphen"/>lipsburg</hi> and <hi>Maſtricht;</hi> that they
+want neither Skill to fortifie a place, nor Courage to defend it. So that
+without a great loſs of Time and Men, it cannot be expected that the
+<hi>Imperialiſts</hi> ſhould make them<g ref="char:EOLhyphen"/>ſelves Maſters of any
+conſiderable place: And when they ſhall have carried it; what will a Town
+in <hi>Lorain,</hi> or <hi>Burgundy,</hi> ſignifie to the ſaving of the
+<hi>Spaniſh Netherlands,</hi> which if once loſt, are hardly ever to be
+retriv'd?</p>
+            <pb n="12" facs="tcp:98861:7"/>
+            <p>Now taking this for granted; if <hi>England</hi> does not ſtep
+in with all the ſpeed and vigor imaginable, ſee what will be the end on't,
+<hi>Firſt,</hi> That the <hi>French,</hi> being Maſters of all the Poſts,
+Paſſes and ſtrong-holds in <hi>Lorain</hi> and <hi>Burgundy,</hi> may
+dodge and trifle the <hi>Imperialiſts</hi> at pleaſure; and make them
+ſpend out the year without any Advan<g ref="char:EOLhyphen"/>tage to the <hi>Netherlands.</hi> The
+way would have been for the <hi>Imperialiſts</hi> to have preſt with an
+Army of 50000 men directly into the body of <hi>France,</hi> and the
+<hi>Confederate Troops</hi> in the <hi>Low Countries,</hi> to have made another
+Inrode by the way of <hi>Picardy,</hi> or <hi>Bologne;</hi> but ſince the
+taking of <hi>Valenciennes, Cambray</hi> and St. <hi>Omer,</hi> there's no
+poſſibility of piercing <hi>France</hi> that way. So that a very ſmall
+Army now upon the <hi>Spaniſh Netherlands,</hi> with the help of the
+<hi>French</hi> Garriſons, is ſufficient to amuſe and tire out the whole
+force of <hi>Spain,</hi> and <hi>Holland</hi> upon that Quarter.</p>
+            <p>
+               <hi>Secondly, France</hi> being thus ſecur'd on that ſide will
+unqueſtionably fall in with all their Power upon the <hi>Empire;</hi>
+unleſs diverted by the Alarm they have now receiv'd from <hi>England.</hi>
+Now admitting this to be the Condition of <hi>France,</hi> let any man of
+ſenſe judge, what good the <hi>Imperial</hi> Army can do to the
+<hi>Netherlands</hi> (upon which ſingle point depends the Fortune of
+<hi>Chriſtendom.</hi>) What if they ſhould march up to the Borders of
+<hi>France</hi> with 50000 men? Will not the <hi>French</hi> en<g ref="char:EOLhyphen"/>counter them
+there with as many, or more? And with this odds too, that the
+<hi>Imperialiſts</hi> ſuffer a thouſand Incommodities in their March,
+through a ruin'd Country; whereas the <hi>French</hi> have good Quarters, and
+plenty of all things at hand, watching the Others motions and emproving all
+Advantages againſt them.</p>
+            <p>
+               <hi>Thirdly,</hi> In this poſture of Affairs, the Confederates
+muſt never expect to do any great Matter upon the <hi>French,</hi> in theſe
+Provinces, unleſs they do very much out-number them.</p>
+            <p>And it is likewiſe to be conſidered, that theſe troubles
+falling out in the <hi>Minority</hi> of his <hi>Catholique Majeſty,</hi> the
+diſtractions of that Go<g ref="char:EOLhyphen"/>vernment, the Revolt of <hi>Sicily,</hi> and great
+diſorders upon the Fron<g ref="char:EOLhyphen"/>tiers of <hi>Spain;</hi> the <hi>Netherlands</hi>
+have been much neglected, till the E<g ref="char:EOLhyphen"/>levation of his Highneſs <hi>Don
+Joan</hi> of <hi>Auſtria</hi> to the dignity of <hi>Prime Miniſter.</hi>
+And that it is not poſſible for him, by reaſon of the many Exigencies of
+that Crown nearer home, to ſend any Conſiderable ſuc<g ref="char:EOLhyphen"/>cour to the <hi>Low
+Countries,</hi> otherwiſe than by ſupplies of Mony: So that by that time
+the <hi>Imperialiſts,</hi> and the <hi>Hollanders</hi> are got into their
+Winter-Quarters, or at leaſt, before they take the Field again, the
+<hi>French</hi> from time to time will be ready with Freſh Troops out of
+their Garriſons to proſecute their Conqueſts; which by degrees muſt
+needs break the hearts of the Poor Inhabitants, when they find that
+<pb n="13" facs="tcp:98861:7" rendition="simple:additions"/>neither their Faith, nor their Courage, is able any
+longer to protect them. And when that day comes; what by their Armies, and what
+by other Influences, the <hi>French</hi> will have as good as Subjected <hi>two
+thirds of Europe.</hi> And there will alſo occur theſe farther
+difficulties. <hi>Firſt,</hi> no body knows where the <hi>French</hi> will
+begin their Attaque; which will oblige the <hi>Spaniard</hi> and
+<hi>Hollander</hi> to ſtrengthen all their Garriſons as far as their Men
+will reach. <hi>Secondly,</hi> when the <hi>Spaniſh</hi> and <hi>Holland</hi>
+Troops ſhall be ſo diſpers'd, whereſoever the <hi>French</hi> ſit
+down, they muſt then give themſelves for loſt, for want of an Army to
+relieve them; beſide their furious and obſtinate manner of Aſſault, for
+they care not how many men they loſe, ſo they carry the place. (And then
+moſt of the Men too are made Priſoners of War.) Nor is the ſeaſon of
+the year any diſcouragement to them neither; witneſs their firſt
+Irruption into <hi>Burgundy,</hi> and the reſtleſs Activity of their Troops
+even at this Inſtant.</p>
+            <p>So ſoon as their Work in <hi>Flanders</hi> is over, (which only
+<hi>England,</hi> under Heaven, is able to Prevent or Check) the
+<hi>French</hi> will have an Army of at leaſt 50000 Men about <hi>Lorain,
+Luxemburg,</hi> and <hi>Burgundy</hi> to face the <hi>Imperialiſts,</hi> and
+at the ſame time with as many more perhaps they will ſeize upon the Dutchy
+of <hi>Juliers,</hi> and of <hi>Cleves,</hi> and from thence paſs the
+<hi>Rhine,</hi> to countenance thoſe that are of the <hi>French Caball,</hi>
+on the ſide of <hi>Weſtphalia;</hi> and ſo in due time, ſeveral other
+Princes of the <hi>Empire.</hi> It is remarkable that in three years War
+againſt the <hi>Confederates,</hi> his moſt <hi>Chriſtian Majeſty</hi>
+has not only ſtood his ground, without loſing ſo much as one Inch of his
+Ancient Patri<g ref="char:EOLhyphen"/>mony, but actually and almoſt without oppoſition, taken
+ſeveral Towns, and ſome entire Provinces, from the Principals of the
+<hi>Con<g ref="char:EOLhyphen"/>federacy;</hi> And made himſelf almoſt as Conſiderable at
+<hi>Sea,</hi> as he is at <hi>Land;</hi> Not only in the
+<hi>Mediterranean,</hi> and upon the Coaſts of <hi>Spain</hi> and
+<hi>Italy,</hi> but in <hi>America</hi> too: where he has laid a Foundation of
+great miſchief both to <hi>England</hi> and <hi>Holland,</hi> in the point of
+<hi>Com<g ref="char:EOLhyphen"/>merce;</hi> if not timely prevented. And he does little leſs by his
+<hi>mony</hi> than by his <hi>Arms;</hi> for he pays all, and with <hi>French
+mony,</hi> under pretext of <hi>Neutrality,</hi> maintains conſiderable
+Armies in the very heart of the <hi>Empire;</hi> which, 'tis feared, will be
+ready enough upon any diſaſter, to joyn with the <hi>Common Enemy.</hi> It
+is the <hi>French</hi> Court that manages the Counſels of <hi>Poland,</hi>
+and they govern the <hi>Swiſſe</hi> no leſs; who, by the Conqueſt of
+the <hi>Franche County</hi> are made little better than ſlaves. And yet by a
+fatal blindneſs <hi>that Republique</hi> ſtill furniſhes the
+<hi>French</hi> with the beſt of their Soldiers, and helps forward the
+deſtruction of <hi>Europe,</hi> never dreaming that they themſelves are to
+be undone too at laſt.</p>
+            <pb n="14" facs="tcp:98861:8"/>
+            <p>But it is no great matter, you'l ſay, to impoſe upon the
+<hi>Swiſſe</hi> (which are a heavy and Phlegmatick people) but the
+<hi>French</hi> charms have bewitcht even <hi>Italy</hi> it ſelf; though a
+Nation the moſt Clear-ſighted, and ſuſpicious of all others. For their
+<hi>Republiques</hi> lie as quiet, as if they were aſleep; though the Fire is
+already kindled in <hi>Sicily,</hi> and the danger brought home to their own
+doors. It is a wonder, that they lay things no more to heart, conſidering,
+<hi>firſt,</hi> the Paſſages that the <hi>French</hi> have to favour
+their Entry. <hi>Secondly,</hi> that they are many, and ſmall States; weak,
+and eaſily to be corrupted, if not ſo already. <hi>Thirdly,</hi> That
+though they have been formerly very brave, and many Particulars remain ſo
+ſtill, yet in the generality they are ſoft and Effeminate. And
+<hi>Fourthly,</hi> That the <hi>French</hi> is there the Maſter of the Seas.
+Theſe Reflections methinks might convince any man of the condition they are
+in. And certainly they that were not able to defend themſelves againſt
+<hi>Charles the Eighth,</hi> will be much leſs able to encounter <hi>Lewis
+the</hi> 14th: Or if he gets in, to drive him out again, as they did the Other.
+For they muſt do it wholly upon their own Strength, having only the
+<hi>Turk</hi> in condition to help them. For <hi>Germany</hi> and
+<hi>Spain</hi> are ſunk already; And the <hi>Swiſſe</hi> will neither
+dare to venture upon't, nor are they able to do it if they had a mind to't.</p>
+            <p>As for <hi>Spain,</hi> it is neither Populous, nor fortifi'd, and
+perhaps want of Proviſions may keep it from an Invaſion. And yet for all
+that, with a Body of Thirty or Forty thouſand Men by the way of
+<hi>Fontaraby,</hi> and as many by <hi>Catalonia,</hi> the <hi>French</hi> may
+(if they pleaſe) in two <hi>Campania's</hi> make themſelves Maſters of
+<hi>Navarre, Arragon, Catalonia,</hi> and <hi>Valen<g ref="char:EOLhyphen"/>tia:</hi> and then it is
+but ſortifying the Frontiers, and making <hi>his Catho<g ref="char:EOLhyphen"/>lique Majeſty</hi> a
+Tributary in <hi>Caſtile;</hi> Who muſt content himſelf to take what they
+pleaſe to give him, over and above, in conſideration of his Dominions in
+<hi>Italy,</hi> and the <hi>Spaniſh Indies: A Poſſibility that</hi>
+England <hi>and</hi> Holland <hi>ſhall do well to think of: For when he has
+the</hi> Mines <hi>in his Power, and</hi> Europe <hi>under his Feet, there will
+be no contending.</hi>
+            </p>
+            <p>After this, they have only the <hi>Swiſſe</hi> or the
+<hi>Engliſh,</hi> to fall upon next: For the <hi>Former,</hi> they are
+neither fortify'd nor united in Affections or Religion.</p>
+            <p>As for <hi>England;</hi> They are a People not naturally addicted
+to the <hi>French;</hi> Senſible of their Honour, and of their Intereſt;
+and the whole World is convinced of their Courage. They are United under the
+Government of a Gracious Prince; and their Concerns are at this Inſtant
+lodged in the hands of the Moſt Loyal and Publique-ſpirited
+Repreſentatives that ever acted in that Station; beſide the ſtrength of
+the Iſland by Situation: So that the <hi>French</hi> would find it a hard
+mat<g ref="char:EOLhyphen"/>ter, <pb n="15" facs="tcp:98861:8" rendition="simple:additions"/>either to make a Conqueſt here, or, if
+they ſhould ſurprize it, to keep it. But yet they have finer ways to
+Victory than by force of Arms; and their <hi>Gold</hi> has done them better
+ſervice than their <hi>Iron.</hi>
+            </p>
+            <p>What have we now to do then, but in a Common Cauſe, to arm
+againſt a Common Oppreſſion? This is the time, or never, for
+<hi>Italy</hi> to enter into a League for their Common Safety, and not only to
+keep, but, if poſſible, to force the <hi>French</hi> from their Borders;
+while the <hi>Imperial</hi> Army holds the Capital Power of <hi>France</hi> in
+Play?</p>
+            <p>And this is the time too, for the <hi>Swiſſe</hi> to recall
+all their Troops out of the <hi>French</hi> Service, and to Strike a general
+League alſo for the Reco<g ref="char:EOLhyphen"/>very of <hi>Burgundy,</hi> the only Outwork of their
+Liberties, and to expel the <hi>French</hi> Garriſons, and deliver the places
+into the hands of the Right Owners.</p>
+            <p>And will it not concern <hi>Poland</hi> as much as any of the
+reſt; that ſtands falls with the <hi>Empire,</hi> as the Defence of
+<hi>Chriſtendom</hi> againſt the <hi>Turks,</hi> and whoſe own Turn is
+next?</p>
+            <p>This Alarm methinks ſhould call off the Princes from the
+Acquiſitions they have made upon part of the <hi>Swedes</hi>
+Poſſeſſions in the <hi>Empire,</hi> to the Aſſiſtance of the
+<hi>Spaniſh Netherlands;</hi> and make all the <hi>French Merce<g ref="char:EOLhyphen"/>naries</hi>
+in the <hi>Empire</hi> to bethink themſelves of returning from the
+delu<g ref="char:EOLhyphen"/>ſions which either the <hi>French Artifice</hi> or <hi>Mony</hi> has
+impoſed upon them. He that has no regard for the <hi>Head,</hi> will have
+leſs for the <hi>Dependences,</hi> when he has them at his Mercy.</p>
+            <p>Nay the very <hi>French</hi> themſelves ſhould do well to
+contemplate the ſlavery that is now prepar'd for them. Their Laws and
+Liberties are trampled upon; and <hi>till the</hi> French <hi>Government be
+reduc'd to the Bounds of its Ancient Conſtitution, neither the People, nor
+their Neighbours, can ever be ſecure.</hi>
+            </p>
+            <p>In this dangerous <hi>Criſis</hi> of Affairs, it has pleas'd
+Divine Providence to leave <hi>England</hi> the Arbitreſs of the Fate of
+<hi>Europe;</hi> and to annex ſuch advantages to the Office, that the
+<hi>Honour,</hi> the <hi>Duty,</hi> and <hi>Security</hi> of this Nation ſeem
+to be wrapt up together. In the Point of <hi>Honour,</hi> what can be more
+Generous, than to ſuccour the Miſerable and the Oppreſs'd, and to put a
+ſtop to that Torrent that threatens <hi>Chriſtendom</hi> with an
+Univerſal Deluge? Beſide the Vindication of our ſelves for thoſe
+Affronts and Indignities, both Publique and Private, that we have ſuffer'd
+upon our own Accompt. And then in matter of <hi>Duty;</hi> It is not only
+<hi>Chriſtendom,</hi> but <hi>Chriſtianity</hi> it ſelf, that lies at
+ſtake. For, in the Ruine of the <hi>Empire,</hi> the <hi>Turks</hi> work is
+done to his hand, by breaking down the only Fence that has preſerv'd us all
+this while from the In<g ref="char:EOLhyphen"/>curſions of the <hi>Ottoman</hi> Power. Now as nothing
+can be more Glorious, <pb n="16" facs="tcp:98861:9"/>then at all hazards, to hinder the
+Effuſion of more <hi>Chriſtian bloud,</hi> and to ſave
+<hi>Chriſtendom</hi> it ſelf from Bondage; It is ſo much our
+<hi>Intereſt</hi> too, that we our ſelves are Loſt without it. And as the
+Obligation is Reci<g ref="char:EOLhyphen"/>procal, ſo the Reſolution is neceſſary: The choice
+we have before us be<g ref="char:EOLhyphen"/>ing only This, <hi>Either to unite with our Neighbors for
+a Common ſafety, or to ſtand ſtill and look on, the tame Spectators of
+their Ruine, till we fall alone.</hi> This is ſo Demonſtrative, that if we
+do not by a powerful Allyance, and Di<g ref="char:EOLhyphen"/>verſion, prevent the Conqueſt of
+<hi>Flanders</hi> (which lyes already a gaſping) we are cut off from all
+Communication with the reſt of <hi>Europe;</hi> and coop'd up <hi>at
+home,</hi> to the Irrecoverable loſs of our Reputation and Com<g ref="char:EOLhyphen"/>merce; for
+<hi>Holland</hi> muſt inevitably follow the Fate of <hi>Flanders,</hi> and
+then the French are Maſters of the Sea; Ravage our Plantations, and
+infal<g ref="char:EOLhyphen"/>libly poſſeſs themſelves of the <hi>Spaniſh Indies,</hi> and
+leave Us anſwerable for all thoſe Calamities that ſhall enſue upon it:
+which as yet, by God's Providence, may be timely prevented. But <hi>he that
+ſtills the raging of the Sea, will undoubtedly ſet Bounds to this
+overflowing Greatneſs;</hi> having now, (as an Earneſt of that Mercy) put
+it into the hearts of our Superi<g ref="char:EOLhyphen"/>ours to provide ſeaſonably for the Common
+ſafety, and in proportion alſo to the Exigence of the Affair; knowing very
+well, that things of this Nature are not to be done by halves.</p>
+            <p>We have to do with a Nation of a large Territory; abounding in
+Men, and Mony; their Dominion is grown ſo Abſolute, that no man there can
+call any thing his own, if the Court ſays Nay to't. So that the Sober and
+Induſtrious Part are only ſlaves to the Luſts, and Ambition of the
+Military. In this Condition of Servitude, they feel already what their
+Neighbours fear, and wiſh as well to any Opportunity, either of avoiding, or
+of Caſting off the Yoak: which will eaſily be given by a Conjunction of
+<hi>England</hi> and <hi>Hol<g ref="char:EOLhyphen"/>land</hi> at Sea: and almoſt infallibly produce
+theſe Effects. <hi>Firſt;</hi> It will draw off the Naval Force of
+<hi>France</hi> from <hi>Sicily, America,</hi> and elſewhere, to attend this
+Expedition. <hi>Second<g ref="char:EOLhyphen"/>ly,</hi> The Diverſion will be an eaſe to the
+<hi>Empire,</hi> and the <hi>Confederates,</hi> from whence more Troops muſt
+be drawn to encounter this Difficulty, than the <hi>French</hi> can well
+ſpare. <hi>Thirdly,</hi> It will not only encourage thoſe Princes, and
+States that are already engag'd, but likewiſe keep in Awe thoſe that are
+diſaffected, and confirm thoſe that waver.</p>
+            <p>'Tis true, this War muſt needs be <hi>prodigiouſly
+expenſive;</hi> but then in probability it will be <hi>Short;</hi> And in
+Caſes of this Quality, people muſt do as in a Storm at Sea, rather throw
+part of the Lading over-board, than Founder the Veſſel. I do not ſpeak
+This, as ſuppoſ<g ref="char:EOLhyphen"/>ing any Difficulty in the Caſe, for the very
+contemplation of it has put fire into the veins of every true
+<hi>Engliſhman;</hi> and they are moved, as by a ſacred impulſe, to the
+Ne<g ref="char:EOLhyphen"/>ceſſary, and the only means of their Preſervation, And that which
+crowns our hopes, is, that theſe generous Inclinations are only ready to
+execute what the wiſdom of their Superi<g ref="char:EOLhyphen"/>ours ſhall find reaſonable to
+Command. I need not tell you how <hi>Jealous</hi> the People of
+<hi>England</hi> are of their Religion, and Liberties; to what degree they have
+contended, even for the ſhadow of theſe Intereſts; nor how much blood,
+and Treaſure they have ſpent upon the Quarrel. Could any impoſture work
+ſo much; and can any man imagine that they will be now leſs ſenſible,
+when they ſee before their eyes a manifeſt Plot upon their Religion, their
+Liberties invaded; their Traffique interrupted; the <hi>Honour,</hi> and the
+very <hi>Being</hi> of their <hi>Country</hi> at ſtake; their Wives and
+Children expos'd to <hi>Beggary</hi> and <hi>Scorn;</hi> and in Concluſion,
+<hi>The Priviledges of a</hi> Free-born Engliſhman <hi>Exchanged for the
+Vaſſalage of</hi> France?</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
